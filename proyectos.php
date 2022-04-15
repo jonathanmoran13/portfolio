@@ -117,8 +117,8 @@
                     <i class="fa-brands fa-linkedin-in"></i></a>
 
             </div>
-            <div class="col-12 col-sm-3">Sponsor <a href="http://depsuite.com">DePC Suite</a> </div>
-            <div class="col-12 col-sm-3"><a href="mailto:Jonathanmoran1353@gmail.com">Jonathanmoran1353@gmail.com</a></div>
+            <div class="col-12 col-sm-3"> <strong>Sponsor</strong> <a href="http://depsuite.com"> <strong>DePC Suite</strong> </a> </div>
+            <div class="col-12 col-sm-3"><a href="mailto:Jonathanmoran1353@gmail.com"><strong>jonathanmoran1353@gmail.com</strong></a></div>
         </div>
     </footer>
     <div class="whatsapp pt-2 pb-3 px-3">

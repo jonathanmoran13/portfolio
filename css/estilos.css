@@ -3,7 +3,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-#contacto{
+
+
+#contacto, #inicio {
     background-image: url("../images/fondo-contacto.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -14,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 
 h1{
     color: #E20000;
@@ -50,20 +53,16 @@ textarea{
 }
 
 .btn-rojo{
-    background-color: #E20000;
+    background-color: #E20000 !important;
     color: white !important; 
     border-radius: 14px;
 }
 
 .btn-rojo:hover{
     color: white;
-    background-color: #370a6d;
+    background-color: #370a6d !important;
 }
 
-footer, footer a{
-    color: white;
-    font-weight: 100;
-}
 
 .whatsapp{
     position: fixed;
@@ -126,4 +125,48 @@ nav .active{
     }
 }
 
+#inicio .div-cohete{
+    height: 410px;
+}#inicio .cohete {
+    height: 400px;
+}
 
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border-radius: 14px;
+}
+
+#inicio .input-home p{
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+p{
+    color: white;
+    font-size: 16px;
+}
+
+footer .fa-github{
+    font-size: 30px;
+    color: #ff4a49;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+footer , footer a{
+    color: red;
+    font-weight: 100;
+}
