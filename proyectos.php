@@ -117,7 +117,7 @@
                     <i class="fa-brands fa-linkedin-in"></i></a>
 
             </div>
-            <div class="col-12 col-sm-3"> <strong>Sponsor</strong> <a href="http://depsuite.com"> <strong>DePC Suite</strong> </a> </div>
+            <div class="col-12 col-sm-3" > <strong> Sponsor </strong> <a href="http://depsuite.com"> <strong>DePC Suite</strong> </a> </div>
             <div class="col-12 col-sm-3"><a href="mailto:Jonathanmoran1353@gmail.com"><strong>jonathanmoran1353@gmail.com</strong></a></div>
         </div>
     </footer>

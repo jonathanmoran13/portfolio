@@ -4,28 +4,25 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-#contacto, #inicio {
-    background-image: url("../images/fondo-contacto.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+P{
+    color: #6a6a6a;
+    font-size: 16px;
+    text-align: justify;
 }
-
-#proyectos{
-    background-image: url("../images/fondo-proyectos.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 
 h1{
     color: #E20000;
     font-size: 36px;
 }
 
-P{
-    color: #6a6a6a;
-    font-size: 16px;
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 14px; 
+    color:#282828;
+    font-weight: 300;
 }
 
 li .nav-link{
@@ -35,6 +32,61 @@ li .nav-link{
 textarea{
     height: 150px;
 }
+
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 25px;
+}
+
+@media(max-width:750px){
+    #contacto{
+        background-image: url("../images/fondo-proyectos.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+#contacto, #inicio {
+    background-image: url("../images/fondo-contacto.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#proyectos, #sobre_mi {
+    background-image: url("../images/fondo-proyectos.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#experiencia h2{
+    color: #E20000;
+ }
+
+ #experiencia h4{
+    color: #370A6D;
+ }
+ #experiencia h2, #formacion h2 {
+     font-weight: 400;
+     font-size: 24px
+ }
+ #formacion h2, #formacion h4{
+     color: #E20000;
+ }
+ #experiencia h3, #formacion h3{
+     color: #6A6A6A;
+     font-size: 18px;
+     font-weight: 600;
+ 
+ }
+ #experiencia h4, #formacion h4{
+     font-size: 17px;
+     
+ }
+ #experiencia h5, #formacion h5{
+     color: #6A6A6A;
+     font-size: 14px;
+ }
 
 .form-control{
     border-radius: 14px;
@@ -63,6 +115,16 @@ textarea{
     background-color: #370a6d !important;
 }
 
+.color-gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
 
 .whatsapp{
     position: fixed;
@@ -85,11 +147,6 @@ textarea{
 
 .fa-linkedin-in{
     font-size: 34px;
-}
-
-nav .active{
-    border: 1px solid #E20000;
-    border-radius: 25px;
 }
 
 .proyecto h2{
@@ -117,18 +174,14 @@ nav .active{
     height: 208px;
 }
 
-@media(max-width:750px){
-    #contacto{
-        background-image: url("../images/fondo-proyectos.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-}
-
 #inicio .div-cohete{
     height: 410px;
 }#inicio .cohete {
     height: 400px;
+}
+
+#inicio .cohete:hover{
+    height: 410px;
 }
 
 .btn {
@@ -144,14 +197,53 @@ nav .active{
     border-radius: 50px;
     font-weight: 600;
 }
-p{
-    color: white;
+
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
     font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
 }
 
 footer .fa-github{
     font-size: 30px;
     color: #ff4a49;
+    background-color: white;
+    border: 0px;
+    height: 30px;
+    width: 28px;
+    text-align: center;
+    padding: 0px 0 0 0;
+    border-radius: 80px;
+    margin: 0 6px;
 }
 footer .fa-linkedin-in{
     color: #ff4a49;
@@ -170,3 +262,9 @@ footer , footer a{
     color: red;
     font-weight: 100;
 }
+
+#inicio footer a , #contacto footer a {
+    color: white;
+}
+
+
