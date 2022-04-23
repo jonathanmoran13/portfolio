@@ -1,3 +1,7 @@
+<?php
+$pg = "sobre_mi" ;
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,36 +18,7 @@
 </head>
 
 <body id="sobre_mi">
-    <header class="container">
-        <nav class="navbar navbar-expand-md  mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-3 px-sm-4" aria-current="page" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-3 px-sm-4 active" href="sobre-mi.php">Sobre Mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-3 px-sm-4" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link py-1 px-3 px-sm-4" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex">
-                        <a class="btn btn-rojo"><i class="fa-solid fa-download"></i> Descargar mi CV</a>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    <?php include_once "header.php" ?>
     <main>
         <div class="container">
             <div class="row">
@@ -396,46 +371,10 @@ con ganas de abrirme paso en el mundo IT.  </p>
             </div>
         </section>
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
     </main>
-    <footer class="container mt-4">
-        <div class="row">
-            <div class="col-12 col-sm-3">
-                <a href="https://github.com" target="_blank">
-                    <i class="fa-brands fa-github"></i></a>
-                <a href="https://linkedin.com" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i></a>
+    
+    <?php include_once "footer.php" ?>
 
-            </div>
-            <div class="col-12 col-sm-3"> <strong>Sponsor</strong> <a href="http://depsuite.com"> <strong>DePC Suite</strong> </a> </div>
-            <div class="col-12 col-sm-3"><a href="mailto:Jonathanmoran1353@gmail.com"><strong>jonathanmoran1353@gmail.com</strong></a></div>
-        </div>
-    </footer>
     <div class="whatsapp pt-2 pb-3 px-3">
         <a href="https://api.whatsapp.com/send?phone=541134866432" target="_blank">
             <i class="fa-brands fa-whatsapp"></i></a>
