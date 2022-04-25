@@ -1,5 +1,18 @@
 <?php
 $pg = "contacto" ;
+
+if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
+
+    if ($nombre && $correo && $telefono && $mensaje != "") {
+        header("Location: enviar.php");
+    }
+
+}
+
 ?>
 
 
@@ -33,19 +46,19 @@ $pg = "contacto" ;
             <div class="col-12 col-sm-6">
                 <form action="" method="POST">
                     <div class="mb-3">
-                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control" require = " " >
                     </div>
                     <div class="mb-3">
-                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control" require=" " >
                     </div>
                     <div class="mb-3">
-                        <input type="tel" name="txtTel" id="txtTel" placeholder="Telefono o whatsapp" class="form-control">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono o whatsapp" class="form-control" require = " " >
                     </div>
                     <div class="mb-3">
-                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aqui tu mensaje" class="form-control"></textarea>
+                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aqui tu mensaje" class="form-control" require= " "></textarea>
                     </div>
                     <div class="mb-3">
-                        <button type="submit" id="btnEnviar" name="btnEnviar" class=" btn btn-blanco px-5" class="form-control">ENVIAR</button>
+                        <button type="submit" id="btnEnviar" name="btnEnviar" class=" btn btn-blanco px-5" class="form-control" >ENVIAR</button>
                     </div>
                 </form>
             </div>

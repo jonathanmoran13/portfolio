@@ -30,7 +30,7 @@ con ganas de abrirme paso en el mundo IT.  </p>
                     <a href="contacto.php" class="btn btn-rojo mb-3" >Enviar mensaje</a>
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
-                    <img src="images/Jonathan.PNG" alt="Jonathan Morán" title="Jonathan Morán" class="img-fluid img-circle ">
+                    <img src="images/Jonathan.jpeg" alt="Jonathan Morán" title="Jonathan Morán" class="img-fluid img-circle ">
                 </div>
             </div>
         </div>
@@ -88,9 +88,9 @@ con ganas de abrirme paso en el mundo IT.  </p>
                     </div>
                 </div>
 
-                <div class="row mt-sm-4 mt-0">
+                               <div class="row mt-sm-4 mt-0">
                     <div class="col-sm-2 col-6">
-                        <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
+                        <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0 text-center ">
                             <h3>Laravel</h3>
                             <img class="img-fluid d-block mx-auto" width="90" src="https://depcsuite.com/wp-content/uploads/2019/08/220px-Laravel.svg_.png">
                         </div>
@@ -120,7 +120,7 @@ con ganas de abrirme paso en el mundo IT.  </p>
                     <div class="col-sm-2 col-6 text-center">
                         <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                             <h3>Apache</h3>
-                            <img class="img-fluid d-block mx-auto" width="110" src="images/logo-apache.png">
+                            <img class="img-fluid d-block mx-auto" width="100" src="images/logo-apache.png">
                         </div>
                     </div>
 
@@ -132,6 +132,52 @@ con ganas de abrirme paso en el mundo IT.  </p>
                     </div>
 
                 </div>
+
+                <div class="row mt-sm-4 mt-0">
+                    <div class="col-sm-2 col-6">
+                        <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0 text-center ">
+                            <h3>MS Excel (Avanzado)</h3>
+                            <img class="img-fluid d-block mx-auto" width="100" src="images/excel-logo.png">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 col-6 text-center">
+                        <div class="px-1 py-5 pt-5 pb-5 card mx-0 mb-4 mb-sm-0">
+                            <h3>VBA</h3>
+                            <img class="img-fluid d-block mx-auto my-1" width="180" src="images/vba-logo.png">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 col-6 text-center">
+                        <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
+                            <h3>Power Bi</h3>
+                            <img class="img-fluid d-block mx-auto" width="68" src="images/PowerBI-Logo.png">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 col-6 text-center">
+                        <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
+                            <h3>Python</h3>
+                            <img class="img-fluid d-block my-1 mx-auto" width="110" src="images/Python-logo.png">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 col-6 text-center">
+                        <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
+                            <h3>MS Visio</h3>
+                            <img class="img-fluid d-block mx-auto" width="70" src="images/Visio_logo.jpg">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 col-6 text-center">
+                        <div class="px-4 py-5 card mx-0 mb-3 mb-sm-0">
+                            <h3>SolidWorks</h3>
+                            <img class="img-fluid d-block mt-2 my-1 mx-auto" width="150" src="IMAGES/solid.png">
+                        </div>
+                    </div>
+
+                </div>
+                
 
             </div>
         </section>
